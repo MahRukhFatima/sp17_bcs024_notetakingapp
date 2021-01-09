@@ -6,7 +6,7 @@ import 'package:tuple/tuple.dart';
 
 import 'package:flt_keep/icons.dart' show AppIcons;
 import 'package:flt_keep/models.dart' show CurrentUser, Note, NoteState, NoteStateX, NoteFilter;
-import 'package:flt_keep/services.dart' show notesCollection, CommandHandler;
+import 'package:fltkeep/services.dart' show notesCollection, CommandHandler;
 import 'package:flt_keep/styles.dart';
 import 'package:flt_keep/utils.dart';
 import 'package:flt_keep/widgets.dart' show AppDrawer, NotesGrid, NotesList;
@@ -18,7 +18,7 @@ class HomeScreen extends StatefulWidget {
 }
 
 /// [State] of [HomeScreen].
-class _HomeScreenState extends State<HomeScreen> with CommandHandler {
+class _HomeScreenState //extends State<HomeScreen> with CommandHandler {
   final _scaffoldKey = GlobalKey<ScaffoldState>();
 
   /// `true` to show notes in a GridView, a ListView otherwise.
