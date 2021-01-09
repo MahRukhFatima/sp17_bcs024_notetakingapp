@@ -2,13 +2,13 @@ import 'package:flutter/material.dart';
 import 'package:firebase_auth/firebase_auth.dart' show FirebaseAuth;
 import 'package:provider/provider.dart';
 
-import 'models.dart' show CurrentUser;
-import 'screens.dart' show HomeScreen, LoginScreen, NoteEditor, SettingsScreen;
+import 'models.dart'show CurrentUser;
+import 'screens.dart'show HomeScreen, LoginScreen, NoteEditor, SettingsScreen;
 import 'styles.dart';
 
 void main() => runApp(NotesApp());
 
-class NotesApp extends StatelessWidget {
+class NotesApp extends Stateless/Widget {
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) => StreamProvider.value(
