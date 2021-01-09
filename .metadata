@@ -5,6 +5,6 @@
 
 //version:
   revision: //fba99f6cf9a14512e461e3122c8ddfaa25394e89
-  channel: stable
+  channel: stable//
 
 project_type: app
