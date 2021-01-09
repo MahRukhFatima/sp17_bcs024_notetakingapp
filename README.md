@@ -1,6 +1,6 @@
-# sp17_bcs024_notetakingapp
+# sp17_bcs024_notetakingapp//
 
-A new Flutter application.
+A new Flutter_application.
 
 ## Getting Started
 
